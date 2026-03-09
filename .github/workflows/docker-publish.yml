@@ -22,10 +22,10 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t ${{ vars.DOCKER_USERNAME }}/github-actions-practice:latest \
-          -t ${{ vars.DOCKER_USERNAME }}/github-actions-practice:sha-${{ steps.vars.outputs.sha_short }} .
+          docker build -t ${{ vars.DOCKER_USERNAME }}/Joke_App:latest \
+          -t ${{ vars.DOCKER_USERNAME }}/Joke_App:sha-${{ steps.vars.outputs.sha_short }} .
 
       - name: Push Docker Images
         run: |
-          docker push ${{ vars.DOCKER_USERNAME }}/github-actions-practice:latest
-          docker push ${{ vars.DOCKER_USERNAME }}/github-actions-practice:sha-${{ steps.vars.outputs.sha_short }}
+          docker push ${{ vars.DOCKER_USERNAME }}/Joke_App:latest
+          docker push ${{ vars.DOCKER_USERNAME }}/Joke_App:sha-${{ steps.vars.outputs.sha_short }}
