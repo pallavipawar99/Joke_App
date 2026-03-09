@@ -3,6 +3,10 @@
 A simple web application built with **Flask** that displays random jokes fetched from an API. 
 
 ---
+# GitHub Actions Practice
+[![Docker Build and Push](https://github.com/pallavipawar99/Joke_App/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/pallavipawar99/Joke_App/actions/workflows/docker-publish.yml)
+This repository contains practice projects for learning GitHub Actions and Docker CI/CD.
+---
 
 ## 🔹 Features
 
